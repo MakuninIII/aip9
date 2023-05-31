@@ -8,10 +8,10 @@ int main() {
     std::cin >> num2;
 
     int sumResult = sum(num1, num2);
-    std::cout « sumResult « std::endl;
+    std::cout << sumResult << std::endl;
 
     int multiplyResult = multiply(num1, num2);
-    std::cout « multiplyResult « std::endl;
+    std::cout << multiplyResult << std::endl;
 
     return 0;
 }
