@@ -1,6 +1,5 @@
 #include <iostream>
 #include "operations.h"
-#include "operations2.h"
 
 int main() {
     int num1, num2; 
