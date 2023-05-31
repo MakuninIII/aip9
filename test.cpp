@@ -1,31 +1,15 @@
-#include <iostream>
+#include "doctest.h"
 #include "operations.h"
 
-void testSum() {
+TEST_CASE("Sum function") {
+// Тест 1: Проверяем, что сумма двух положительных чисел вычисляется правильно
+CHECK(sum(5, 7) == 12);
 
-int result = sum(5, 7);
-int expected = 12;
-if (result == expected) {
-std::cout « "Тест 1 пройден." « std::endl;
-} else {
-std::cout « "Тест 1 не пройден. Ожидалось: " « expected « ", получено: " « result « std::endl;
+// Тест 2: Проверяем, что сумма положительного и отрицательного чисел вычисляется правильно
+CHECK(sum(-3, 8) == 5);
 }
 
-result = sum(-3, 8);
-expected = 5;
-if (result == expected) {
-std::cout « "Тест 2 пройден." « std::endl;
-} else {
-std::cout « "Тест 2 не пройден. Ожидалось: " « expected « ", получено: " « result « std::endl;
-}
-}
-
-void testMultiply() {
-int result = multiply(5, 7);
-int expected = 35;
-if (result == expected) {
-std::cout « "Тест 1 пройден." « std::endl;
-} else {
-std::cout « "Тест 1 не пройден. Ожидалось: " « expected « ", получено: " « result « std::endl;
-}
+TEST_CASE("Multiply function") {
+// Тест 1: Проверяем, что произведение двух положительных чисел вычисляется правильно
+CHECK(multiply(5, 7) == 35);
 }
