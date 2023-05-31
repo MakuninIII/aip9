@@ -128,6 +128,67 @@ Program/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program.dir\build.make CMakeFiles/Program.dir/build
 .PHONY : Program/fast
 
+#=============================================================================
+# Target rules for targets named Lib
+
+# Build rule for target.
+Lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lib
+.PHONY : Lib
+
+# fast build rule for target.
+Lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/build
+.PHONY : Lib/fast
+
+operations.obj: operations.cpp.obj
+.PHONY : operations.obj
+
+# target to build an object file
+operations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/operations.cpp.obj
+.PHONY : operations.cpp.obj
+
+operations.i: operations.cpp.i
+.PHONY : operations.i
+
+# target to preprocess a source file
+operations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/operations.cpp.i
+.PHONY : operations.cpp.i
+
+operations.s: operations.cpp.s
+.PHONY : operations.s
+
+# target to generate assembly for a file
+operations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/operations.cpp.s
+.PHONY : operations.cpp.s
+
+operations2.obj: operations2.cpp.obj
+.PHONY : operations2.obj
+
+# target to build an object file
+operations2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/operations2.cpp.obj
+.PHONY : operations2.cpp.obj
+
+operations2.i: operations2.cpp.i
+.PHONY : operations2.i
+
+# target to preprocess a source file
+operations2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/operations2.cpp.i
+.PHONY : operations2.cpp.i
+
+operations2.s: operations2.cpp.s
+.PHONY : operations2.s
+
+# target to generate assembly for a file
+operations2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/operations2.cpp.s
+.PHONY : operations2.cpp.s
+
 test.obj: test.cpp.obj
 .PHONY : test.obj
 
@@ -160,7 +221,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Lib
 	@echo ... Program
+	@echo ... operations.obj
+	@echo ... operations.i
+	@echo ... operations.s
+	@echo ... operations2.obj
+	@echo ... operations2.i
+	@echo ... operations2.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s

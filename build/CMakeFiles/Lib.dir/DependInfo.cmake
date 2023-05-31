@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/MakILya/aip9/aip9/test.cpp" "CMakeFiles/Program.dir/test.cpp.obj" "gcc" "CMakeFiles/Program.dir/test.cpp.obj.d"
+  "C:/Users/MakILya/aip9/aip9/operations.cpp" "CMakeFiles/Lib.dir/operations.cpp.obj" "gcc" "CMakeFiles/Lib.dir/operations.cpp.obj.d"
+  "C:/Users/MakILya/aip9/aip9/operations2.cpp" "CMakeFiles/Lib.dir/operations2.cpp.obj" "gcc" "CMakeFiles/Lib.dir/operations2.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/MakILya/aip9/aip9/build/CMakeFiles/Lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

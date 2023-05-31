@@ -92,6 +92,7 @@ Program_EXTERNAL_OBJECTS =
 
 Program.exe: CMakeFiles/Program.dir/test.cpp.obj
 Program.exe: CMakeFiles/Program.dir/build.make
+Program.exe: libLib.a
 Program.exe: CMakeFiles/Program.dir/linkLibs.rsp
 Program.exe: CMakeFiles/Program.dir/objects1
 Program.exe: CMakeFiles/Program.dir/link.txt

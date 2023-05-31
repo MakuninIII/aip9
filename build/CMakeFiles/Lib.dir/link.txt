@@ -1,0 +1,2 @@
+C:\Users\MakILya\Downloads\mingw64\bin\ar.exe qc libLib.a CMakeFiles/Lib.dir/operations.cpp.obj CMakeFiles/Lib.dir/operations2.cpp.obj
+C:\Users\MakILya\Downloads\mingw64\bin\ranlib.exe libLib.a
